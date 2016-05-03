@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">MyPersonalTrainer</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="login">Login</string>
+    <string name="cancel">Cancel</string>
+
+
+    <string name="logoff">Log Off</string>
+    <string name="customer_list">Customer List</string>
+    <string name="session_list">Session List</string>
+    <string name="add_customer">Add Customer</string>
+    <string name="edit_customer">Edit Customer</string>
+    <string name="new_session">New Session</string>
+    <string name="complete_session">Complete Session</string>
+
+    <string name="login_jdoe">Logged In: JDOE</string>
+
+    <string name="cust_name">Name:</string>
+    <string name="address">Address:</string>
+    <string name="city">City:</string>
+    <string name="state">State:</string>
+    <string name="zip">Zip:</string>
+
+    <string name="cardno">Card No:</string>
+    <string name="exp_date">Exp. Date:</string>
+    <string name="expdate_mo">Mo:</string>
+    <string name="expdate_yr">Yr:</string>
+
+    <string name="submit">Submit Payment</string>
+</resources>

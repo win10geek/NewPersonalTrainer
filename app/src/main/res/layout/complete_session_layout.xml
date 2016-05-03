@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:weightSum="1">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/complete_session"
+    android:gravity="center"
+    android:textColor="#FF0000"
+    android:textSize="36dp"/>
+
+    <EditText
+        android:id="@+id/session_end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Please Sign Here"
+        android:textSize="24dp"
+        android:layout_weight="0.14"/>
+</LinearLayout>

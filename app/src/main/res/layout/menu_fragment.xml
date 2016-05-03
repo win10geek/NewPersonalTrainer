@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <Button
+        android:id="@+id/mbutton1"
+        android:layout_width="188dip"
+        android:layout_height="40dip"
+        android:text="@string/logoff"
+        android:layout_centerHorizontal="true"/>
+
+
+    <Button
+        android:id="@+id/mbutton2"
+        android:layout_width="188dip"
+        android:layout_height="40dip"
+        android:text="@string/add_customer"
+        android:layout_below="@+id/mbutton1"
+        android:layout_alignLeft="@+id/mbutton1"
+        android:layout_alignStart="@+id/mbutton1"/>
+
+
+
+    <Button
+        android:id="@+id/mbutton3"
+        android:layout_width="188dip"
+        android:layout_height="40dip"
+        android:text="@string/customer_list"
+        android:layout_below="@+id/mbutton2"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/mbutton4"
+        android:layout_width="188dip"
+        android:layout_height="40dip"
+        android:text="@string/edit_customer"
+        android:layout_below="@+id/mbutton3"
+        android:layout_centerHorizontal="true"/>
+
+
+    <Button
+        android:id="@+id/mbutton5"
+        android:layout_width="188dip"
+        android:layout_height="40dip"
+        android:text="@string/session_list"
+        android:layout_below="@+id/mbutton4"
+        android:layout_alignLeft="@+id/mbutton3"
+        android:layout_alignStart="@+id/mbutton3"/>
+
+
+
+    <Button
+        android:id="@+id/mbutton6"
+        android:layout_width="188dip"
+        android:layout_height="40dip"
+        android:text="@string/new_session"
+        android:layout_below="@+id/mbutton5"
+        android:layout_alignLeft="@+id/mbutton4"
+        android:layout_alignStart="@+id/mbutton4"/>
+
+
+
+    <Button
+        android:id="@+id/mbutton7"
+        android:layout_width="188dip"
+        android:layout_height="40dip"
+        android:text="@string/complete_session"
+        android:layout_below="@+id/mbutton6"
+        android:layout_alignLeft="@+id/mbutton5"
+        android:layout_alignStart="@+id/mbutton5"/>
+
+
+
+</RelativeLayout>
