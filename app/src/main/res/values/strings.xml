@@ -21,11 +21,15 @@
     <string name="city">City:</string>
     <string name="state">State:</string>
     <string name="zip">Zip:</string>
-
-    <string name="cardno">Card No:</string>
-    <string name="exp_date">Exp. Date:</string>
-    <string name="expdate_mo">Mo:</string>
-    <string name="expdate_yr">Yr:</string>
+    <string name="state_hint">2 letter postal abbr."</string>
+    <string name="zip_hint">5-digit or 5+4 zip</string>
+    <string name="cardno_hint">12-16 digit number</string>
+    <string name="cardmo_hint">2-digit mo.</string>
+    <string name="cardyr_hint">2-digit yr.</string>
 
     <string name="submit">Submit Payment</string>
+    <string name="exp_date">Exp. Date:</string>
+    <string name="card_no">Card no:</string>
+    <string name="exp_mo">Exp. Mo:</string>
+    <string name="exp_yr">Exp. Yr:</string>
 </resources>
