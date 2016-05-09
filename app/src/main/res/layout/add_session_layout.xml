@@ -43,7 +43,7 @@
         android:layout_width="0dip"
         android:layout_height="wrap_content"
         android:layout_weight="0.3"
-        android:text="@string/cardno"
+        android:text="@string/card_no"
         android:gravity="left"/>
 
     <EditText
@@ -75,7 +75,7 @@
             android:layout_width="0dip"
             android:layout_height="wrap_content"
             android:layout_weight="0.3"
-            android:text="@string/expdate_mo"
+            android:text="@string/exp_mo"
             android:gravity="right"/>
 
         <EditText
@@ -87,7 +87,7 @@
             android:layout_width="0dip"
             android:layout_height="wrap_content"
             android:layout_weight="0.3"
-            android:text="@string/expdate_yr"
+            android:text="@string/exp_yr"
             android:gravity="right"/>
 
         <EditText
