@@ -2,12 +2,10 @@ package com.android.johnbalderson.mypersonaltrainer;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.content.Intent;
-import android.widget.Button;
 import android.view.View.OnClickListener;
 import android.widget.Toast;
 
@@ -59,7 +57,7 @@ public class MenuFragment extends Fragment {
                 break;
             case R.id.mbutton3:
                 // Customer List
-                Intent intent3 = new Intent(getActivity(), CustListActivity.class);
+                Intent intent3 = new Intent(getActivity(), ListCustActivity.class);
                 startActivity(intent3);
                 break;
             case R.id.mbutton4:
