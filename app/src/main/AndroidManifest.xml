@@ -27,7 +27,7 @@
         <activity android:name=".EditCustActivity"
                   android:label="Edit Customer" >
         </activity>
-        <activity android:name=".CustListActivity"
+        <activity android:name=".ListCustActivity"
                   android:label="Customer List" >
         </activity>
         <activity android:name=".AddSessionActivity"
@@ -39,6 +39,7 @@
         <activity android:name=".LogoffActivity"
                   android:label="Logoff" >
         </activity>
+
 
     </application>
 
